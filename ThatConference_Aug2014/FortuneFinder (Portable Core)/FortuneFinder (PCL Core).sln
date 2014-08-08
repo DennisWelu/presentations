@@ -1,0 +1,60 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FortuneFinder.iOS", "FortuneFinder.iOS\FortuneFinder.iOS.csproj", "{A36C2698-25E7-485E-AC8F-D0D599CFBB11}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FortuneFinder.Android", "FortuneFinder.Android\FortuneFinder.Android.csproj", "{62EB78BE-C28B-4E1A-8925-78474DA8A4F0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Core", "Core\Core.csproj", "{E8760B64-A7DF-41FB-B4D8-5275D23F1144}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|iPhoneSimulator = Debug|iPhoneSimulator
+		Release|iPhoneSimulator = Release|iPhoneSimulator
+		Debug|iPhone = Debug|iPhone
+		Release|iPhone = Release|iPhone
+		Ad-Hoc|iPhone = Ad-Hoc|iPhone
+		AppStore|iPhone = AppStore|iPhone
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{62EB78BE-C28B-4E1A-8925-78474DA8A4F0}.Ad-Hoc|iPhone.ActiveCfg = Release|Any CPU
+		{62EB78BE-C28B-4E1A-8925-78474DA8A4F0}.Ad-Hoc|iPhone.Build.0 = Release|Any CPU
+		{62EB78BE-C28B-4E1A-8925-78474DA8A4F0}.AppStore|iPhone.ActiveCfg = Release|Any CPU
+		{62EB78BE-C28B-4E1A-8925-78474DA8A4F0}.AppStore|iPhone.Build.0 = Release|Any CPU
+		{62EB78BE-C28B-4E1A-8925-78474DA8A4F0}.Debug|iPhone.ActiveCfg = Debug|Any CPU
+		{62EB78BE-C28B-4E1A-8925-78474DA8A4F0}.Debug|iPhone.Build.0 = Debug|Any CPU
+		{62EB78BE-C28B-4E1A-8925-78474DA8A4F0}.Debug|iPhoneSimulator.ActiveCfg = Debug|Any CPU
+		{62EB78BE-C28B-4E1A-8925-78474DA8A4F0}.Debug|iPhoneSimulator.Build.0 = Debug|Any CPU
+		{62EB78BE-C28B-4E1A-8925-78474DA8A4F0}.Release|iPhone.ActiveCfg = Release|Any CPU
+		{62EB78BE-C28B-4E1A-8925-78474DA8A4F0}.Release|iPhone.Build.0 = Release|Any CPU
+		{62EB78BE-C28B-4E1A-8925-78474DA8A4F0}.Release|iPhoneSimulator.ActiveCfg = Release|Any CPU
+		{62EB78BE-C28B-4E1A-8925-78474DA8A4F0}.Release|iPhoneSimulator.Build.0 = Release|Any CPU
+		{A36C2698-25E7-485E-AC8F-D0D599CFBB11}.Ad-Hoc|iPhone.ActiveCfg = Ad-Hoc|iPhone
+		{A36C2698-25E7-485E-AC8F-D0D599CFBB11}.Ad-Hoc|iPhone.Build.0 = Ad-Hoc|iPhone
+		{A36C2698-25E7-485E-AC8F-D0D599CFBB11}.AppStore|iPhone.ActiveCfg = AppStore|iPhone
+		{A36C2698-25E7-485E-AC8F-D0D599CFBB11}.AppStore|iPhone.Build.0 = AppStore|iPhone
+		{A36C2698-25E7-485E-AC8F-D0D599CFBB11}.Debug|iPhone.ActiveCfg = Debug|iPhone
+		{A36C2698-25E7-485E-AC8F-D0D599CFBB11}.Debug|iPhone.Build.0 = Debug|iPhone
+		{A36C2698-25E7-485E-AC8F-D0D599CFBB11}.Debug|iPhoneSimulator.ActiveCfg = Debug|iPhoneSimulator
+		{A36C2698-25E7-485E-AC8F-D0D599CFBB11}.Debug|iPhoneSimulator.Build.0 = Debug|iPhoneSimulator
+		{A36C2698-25E7-485E-AC8F-D0D599CFBB11}.Release|iPhone.ActiveCfg = Release|iPhone
+		{A36C2698-25E7-485E-AC8F-D0D599CFBB11}.Release|iPhone.Build.0 = Release|iPhone
+		{A36C2698-25E7-485E-AC8F-D0D599CFBB11}.Release|iPhoneSimulator.ActiveCfg = Release|iPhoneSimulator
+		{A36C2698-25E7-485E-AC8F-D0D599CFBB11}.Release|iPhoneSimulator.Build.0 = Release|iPhoneSimulator
+		{E8760B64-A7DF-41FB-B4D8-5275D23F1144}.Ad-Hoc|iPhone.ActiveCfg = Release|Any CPU
+		{E8760B64-A7DF-41FB-B4D8-5275D23F1144}.Ad-Hoc|iPhone.Build.0 = Release|Any CPU
+		{E8760B64-A7DF-41FB-B4D8-5275D23F1144}.AppStore|iPhone.ActiveCfg = Release|Any CPU
+		{E8760B64-A7DF-41FB-B4D8-5275D23F1144}.AppStore|iPhone.Build.0 = Release|Any CPU
+		{E8760B64-A7DF-41FB-B4D8-5275D23F1144}.Debug|iPhone.ActiveCfg = Debug|Any CPU
+		{E8760B64-A7DF-41FB-B4D8-5275D23F1144}.Debug|iPhone.Build.0 = Debug|Any CPU
+		{E8760B64-A7DF-41FB-B4D8-5275D23F1144}.Debug|iPhoneSimulator.ActiveCfg = Debug|Any CPU
+		{E8760B64-A7DF-41FB-B4D8-5275D23F1144}.Debug|iPhoneSimulator.Build.0 = Debug|Any CPU
+		{E8760B64-A7DF-41FB-B4D8-5275D23F1144}.Release|iPhone.ActiveCfg = Release|Any CPU
+		{E8760B64-A7DF-41FB-B4D8-5275D23F1144}.Release|iPhone.Build.0 = Release|Any CPU
+		{E8760B64-A7DF-41FB-B4D8-5275D23F1144}.Release|iPhoneSimulator.ActiveCfg = Release|Any CPU
+		{E8760B64-A7DF-41FB-B4D8-5275D23F1144}.Release|iPhoneSimulator.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(MonoDevelopProperties) = preSolution
+		StartupItem = FortuneFinder.Android\FortuneFinder.Android.csproj
+	EndGlobalSection
+EndGlobal

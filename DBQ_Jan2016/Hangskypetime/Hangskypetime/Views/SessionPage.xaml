@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage 
+	xmlns="http://xamarin.com/schemas/2014/forms" 
+	xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
+	xmlns:local="clr-namespace:Hangskypetime;assembly=Hangskypetime"
+	x:Class="Hangskypetime.SessionPage"
+	BackgroundColor="#10A461"
+	Title="Hangskypetime">
+
+	<Grid Padding="10, 40, 10, 20" HorizontalOptions="Fill" VerticalOptions="Fill">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="50" />
+            <RowDefinition Height="Auto" />
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*" />
+            <ColumnDefinition Width="Auto" />
+            <ColumnDefinition Width="*" />
+        </Grid.ColumnDefinitions>
+
+    	<Label Grid.Column="0" Grid.Row="0" XAlign="Center">Create Session with the following ID:</Label>
+    	<Label Grid.Column="0" Grid.Row="1" XAlign="Center" YAlign="Center" FontAttributes="Bold" FontSize="Large"
+    		Text="{Binding CreateSessionText}"></Label>
+    	<Button Grid.Column="0" Grid.Row="2" Text="Create" TextColor="Black" BackgroundColor="#00AEF3" Command="{Binding CreateCommand}"/>
+        <Label Grid.Column="1" Grid.Row="0" XAlign="Center" FontAttributes="Bold" FontSize="Large">OR</Label>
+    	<Label Grid.Column="2" Grid.Row="0" XAlign="Center">Join Session with the following ID:</Label>
+    	<Entry Grid.Column="2" Grid.Row="1" VerticalOptions="Center" Text="{Binding JoinSessionText}" Keyboard="Numeric">
+		 	<Entry.Behaviors>
+		    	<local:MaxLengthValidator MaxLength="6"/>
+		    </Entry.Behaviors>
+      	</Entry>
+    	<Button Grid.Column="2" Grid.Row="2" Text="Join" TextColor="Black" BackgroundColor="#00AEF3" Command="{Binding JoinCommand}"/>
+	</Grid>
+</ContentPage>

@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage 
+	xmlns="http://xamarin.com/schemas/2014/forms" 
+	xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
+	xmlns:local="clr-namespace:Hangskypetime;assembly=Hangskypetime"
+	x:Class="Hangskypetime.VideoPage"
+	Title="{Binding SessionId}">
+
+	<Grid>
+		<local:VideoView x:Name="VideoView" HorizontalOptions="Fill" VerticalOptions="Fill"/>
+
+		<!-- This label is just used to overlay a double tap gesture recognizer on top of the video -->
+		<Label HorizontalOptions="Fill" VerticalOptions="Fill">
+		    <View.GestureRecognizers>
+		        <TapGestureRecognizer
+		            Command="{Binding NextCameraCommand}"
+		            NumberOfTapsRequired="2" />
+	    	</View.GestureRecognizers>
+		</Label>
+	</Grid>
+</ContentPage>

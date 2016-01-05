@@ -1,4 +1,4 @@
 presentations
 =============
 
-Slides and samples for public presentations
+Slides and samples from public presentations. Have at em'.
